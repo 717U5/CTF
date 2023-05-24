@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+  }
+  
+    body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #3a3a3a;
+    }
+
+    #text{
+    background: #ffffff;
+    background: -webkit-linear-gradient(to right, #ffffff, #060006);
+    background: linear-gradient(to right, #ffffff, #060006);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+    }
