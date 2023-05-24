@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width; height=device-height;">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+  </head>  
+  
+  <body>
+    <body oncontextmenu="javascript:alert('right clicking has been blocked!');return false;"></body>
+      <main id="main-holder">
+        <h1 id="login-header">Hello?</h1>
+        <form id="login-form" action="" method="post">
+          <!--Psssss come here-->
+          <div class="form-group">
+              <label for="InputEmail"></label>
+              <input name="email" class="form-control" id="InputEmail"  placeholder="Enter email">
+              <!--Need some hint?-->
+              <!--The email is in your wish! HA-->
+          </div>
+          
+          <div class="form-group">
+            <label for="InputPassword"></label>
+            <input type="password" name="password" class="form-control" id="InputPassword" placeholder="Password">
+          </div>
+          
+          <button type="submit" class="btn btn-primary" id="login-form-submit">Login</button>
+        </form>
+        <button id="register-submit" onclick="window.location.href='/register.html';">Register</button>
+      </main>
+  </body>
+</html>
