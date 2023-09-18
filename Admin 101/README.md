@@ -15,8 +15,10 @@ For your information, the database this connected might be closed, feel free to 
 You can easily change the link in app.py > def db_connect() > client = MongoClient("your_link" , server_api=ServerApi('1')
 
 
-##PREVIEW OF ADMIN 101##
-
+**PREVIEW OF ADMIN 101**
+Start.html
 ![start](https://github.com/717U5/CTF/assets/145121989/e46b96cd-c0aa-473c-8fac-4be89af5f626)
 
+
+Login.html
 ![login](https://github.com/717U5/CTF/assets/145121989/3bc5ff3a-c799-4e74-8b4d-87f54c00863c)
