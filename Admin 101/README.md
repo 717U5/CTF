@@ -26,3 +26,7 @@ You can easily change the link in app.py > def db_connect() > client = MongoClie
 *Login.html*
 
 ![login](https://github.com/717U5/CTF/assets/145121989/3bc5ff3a-c799-4e74-8b4d-87f54c00863c)
+
+
+*Admin.html*
+![admin](https://github.com/717U5/CTF/assets/145121989/15ff3513-7d64-4b44-89fb-2ae45176bfe3)
