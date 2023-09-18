@@ -11,7 +11,7 @@ Files and folders for this project:
 - requirement.txt - This will inform you the basic requirement you need to run this project
 - README.md - This contain the metadata of this project
 
-For your information, the database this connected might be closed, feel free to create another new one and connect it through app.py. 
+For your information, the database this connected might be closed, feel free to create another new one and connect it through app.py or visit https://titus.pythonanywhere.com/ . 
 You can easily change the link in app.py > def db_connect() > client = MongoClient("your_link" , server_api=ServerApi('1')
 
 
